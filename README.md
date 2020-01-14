@@ -1,4 +1,5 @@
 # scoreyboard: A simple soccer league scorer
+[![CircleCI](https://circleci.com/gh/TheAdamizer/scoreyboard.svg?style=svg)](https://circleci.com/gh/TheAdamizer/scoreyboard)
 
 ### Installation:
     1. Install node: https://nodejs.org/en/

@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:coverage": "jest --reporters=default --reporters=jest-junit"
+    "test:coverage": "jest --coverage --reporters=default --reporters=jest-junit"
   },
   "repository": {
     "type": "git",
