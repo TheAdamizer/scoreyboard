@@ -1,7 +1,7 @@
 {
   "name": "scoreyboard",
   "description": "Challenge project for Jane Technologies",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "bin": {
     "scoreyboard": "index.js"
   },
