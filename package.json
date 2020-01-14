@@ -1,14 +1,14 @@
 {
   "name": "scoreyboard",
-  "description": "Challenge project for Jane Technologies",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "bin": {
-    "scoreyboard": "index.js"
+    "scoreyboard": "./bin/index.js"
   },
-  "main": "index.js",
+  "main": "./bin/index.js",
   "scripts": {
     "test": "jest",
-    "test:coverage": "jest --coverage --reporters=default --reporters=jest-junit"
+    "test:coverage": "jest --coverage --reporters=default --reporters=jest-junit",
+    "build": "./node_modules/.bin/babel src --out-dir bin"
   },
   "repository": {
     "type": "git",
@@ -28,5 +28,11 @@
     "plugins": [
       "@babel/plugin-proposal-class-properties"
     ]
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.8.3",
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3"
   }
 }

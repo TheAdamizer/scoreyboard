@@ -4,10 +4,10 @@
 
 ### Installation:
     1. Install node: https://nodejs.org/en/
+
+    2a. Install package globally with `npm i -g scoreyboard` or
   
-    2a. Download repo directly and run `node ./index.js` from the base directory or
-  
-    2b. Install package globally with `npm i -g scoreyboard`
+    2a. Download repo directly, run `npm install` and then run `node ./bin/index.js` from the base directory
 
 
 ### Usage:

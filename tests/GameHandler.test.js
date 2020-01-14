@@ -1,4 +1,4 @@
-const GameHandler = require('../GameHandler')
+const GameHandler = require('../bin/GameHandler')
 
 describe('GameHandler initializes with an empty score map', () => {
     const outputSpy = jest.fn()

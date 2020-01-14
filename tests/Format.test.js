@@ -1,4 +1,4 @@
-const { formatToText } = require('../Format')
+const { formatToText } = require('../bin/Format')
 
 describe('Scoremap formats and sorts property into output text', () => {
     it('Sorts by score if all scores unique', () => {

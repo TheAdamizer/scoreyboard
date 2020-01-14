@@ -1,4 +1,4 @@
-const FileParser = require('../FileParser')
+const FileParser = require('../bin/FileParser')
 
 
 it('calls the spy function on file data when file found successfully', done => {

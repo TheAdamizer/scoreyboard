@@ -10,7 +10,7 @@ describe('console output', () => {
         process.stdout.write = originalWrite
     })
     it('calls to stdout when rounds seen', done => {
-        require('../index')
+        require('../bin/index')
         setTimeout(() => {
             expect(consoleOutput[0]).toEqual("Matchday 1\nCapitola Seahorses, 3 pts\nFelton Lumberjacks, 3 pts\nSan Jose Earthquakes, 1 pts\n\n")
             expect(consoleOutput[1]).toEqual("Matchday 2\nCapitola Seahorses, 4 pts\nAptos FC, 3 pts\nFelton Lumberjacks, 3 pts\n\n")
