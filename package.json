@@ -1,0 +1,6 @@
+{
+    "name": "scoreyboard",
+    "description": "Challenge project for Jane Technologies",
+    "version": "0.0.1",
+    "bin": "./index.js"
+}
