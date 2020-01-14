@@ -23,4 +23,4 @@
 
 
 ### Testing:
-  Forthcoming
+  `$ npm run test`
