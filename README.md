@@ -14,14 +14,19 @@
   ##### Without any parameters:
   `$ scoreyboard`
   
-  Will look for ./sample-input.txt in the scoreyboard directory.  If not found, will default to listening to scores piped in from STDIN
+  Will listen to scores piped in from STDIN
   For example `$ cat "./sample-input.txt" | scoreyboard`
   
   
-  ##### With one parameter:
+  ##### With a file path:
   `$ scoreyboard "./sample-input.txt"`
   
   Will read the game scores from the specified file directly
+
+  ##### With the sample param:
+  `$ scoreyboard --sample`
+
+  Will read the game scores from the original sample file
 
 
 ### Testing:

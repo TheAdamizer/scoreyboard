@@ -1,6 +1,6 @@
 {
   "name": "scoreyboard",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "bin": {
     "scoreyboard": "./bin/index.js"
   },
