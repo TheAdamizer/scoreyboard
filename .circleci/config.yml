@@ -28,6 +28,8 @@ jobs:
 
       - run: npm install
 
+      - run: npm install -g codecov
+
       - save_cache:
           paths:
             - node_modules
@@ -39,7 +41,7 @@ jobs:
           command: npm install jest-junit
       - run:
           name: Run tests with JUnit as reporter
-          command: npm run test:coverage
+          command: npm run test:coverage && codecov
           environment:
               JEST_JUNIT_OUTPUT_DIR: "reports/junit/js-test-results.xml"
       - store_test_results:
