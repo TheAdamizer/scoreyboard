@@ -1,6 +1,22 @@
 {
-    "name": "scoreyboard",
-    "description": "Challenge project for Jane Technologies",
-    "version": "0.0.1",
-    "bin": "./index.js"
+  "name": "scoreyboard",
+  "description": "Challenge project for Jane Technologies",
+  "version": "0.0.1",
+  "bin": {
+    "scoreyboard": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheAdamizer/scoreyboard.git"
+  },
+  "author": "Adam Van Antwerp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheAdamizer/scoreyboard/issues"
+  },
+  "homepage": "https://github.com/TheAdamizer/scoreyboard#readme"
 }
