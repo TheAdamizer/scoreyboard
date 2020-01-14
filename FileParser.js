@@ -15,9 +15,8 @@ module.exports = class FileParser {
             stream.on('close', () => {
                 resolve()
             })
-            stream.on('error', error => {
+            stream.on('error', () => {
                 reject(new Error('Error occurred reading file stream'))
-                console.error(error)
             })
         })
     }

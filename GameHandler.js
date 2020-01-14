@@ -56,13 +56,13 @@ module.exports = class GameHandler {
             team1ScoreChange = 3
         }
         if (this.scoreMap[team1Name] && this.roundCount < this.scoreMap[team1Name].roundsPlayed + 1) {
-            this.outputResult(this.scoreMap)
+            this.outputResult(Object.assign({},this.scoreMap))
             this.roundCount += 1
         }
         this.updateTeamEntry(team1Name, team1ScoreChange)
         this.updateTeamEntry(team2Name, team2ScoreChange)
         if (lastGame) {
-            this.outputResult(this.scoreMap)
+            this.outputResult(Object.assign({},this.scoreMap))
         }
 
     }
