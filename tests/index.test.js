@@ -17,6 +17,6 @@ describe('console output', () => {
             expect(consoleOutput[2]).toEqual("Matchday 3\nAptos FC, 6 pts\nFelton Lumberjacks, 6 pts\nMonterey United, 6 pts\n\n")
             expect(consoleOutput[3]).toEqual("Matchday 4\nAptos FC, 9 pts\nFelton Lumberjacks, 7 pts\nMonterey United, 6 pts\n\n")
             done()
-        }, 2000)
-    })
+        }, 4000)
+    }, 5000)
 })
